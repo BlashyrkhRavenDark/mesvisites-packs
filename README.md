@@ -9,7 +9,7 @@ Everything here is derived from French open data, redistributed under the corres
 - [Éducation nationale — open data](https://data.education.gouv.fr) (annuaire, résultats, IPS, carte scolaire)
 - [INSEE — Base permanente des équipements](https://www.insee.fr/fr/statistiques/8217525)
 
-The packs contain aggregate and public transaction records only, are not search-engine material, and must not be used to re-identify persons (cf. LPF art. R*112 A-3). Alsace-Moselle (57/68) is absent because DVF does not cover the Livre foncier. DVF years 2016–2025. Rebuilt by `pipeline/build_app_packs.py` in the main repo and re-published with:
+The packs contain aggregate and public transaction records only, are not search-engine material, and must not be used to re-identify persons (cf. LPF art. R*112 A-3). Alsace-Moselle (57/67/68) is absent because DVF does not cover the Livre foncier; Mayotte (976) has no shard either. DVF years 2016–2025. Rebuilt by `pipeline/build_app_packs.py` in the main repo and re-published with:
 
 ```
 gh release upload packs-latest data/packs/* --clobber -R BlashyrkhRavenDark/mesvisites-packs
